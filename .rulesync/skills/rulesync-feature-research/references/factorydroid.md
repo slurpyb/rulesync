@@ -41,8 +41,8 @@ a style name, at both project and global scope. Tracked in #2957; the row exists
 so a run does not read the missing row as a missing upstream surface.
 
 `plugins` is likewise **not a Rulesync dimension and has no Factory Droid
-target**. `src/types/tool-targets.ts` lists only `antigravity-plugin` and
-`claudecode-plugin`. The consumption half is different: `extraKnownMarketplaces`
+target**. `PACKAGING_TOOL_TARGETS` in `src/types/tool-targets.ts` has no
+Factory Droid entry. The consumption half is different: `extraKnownMarketplaces`
 and `enabledPlugins` _are_ authorable, through the `factorydroid` permissions
 override — see `FACTORYDROID_OVERRIDE_KEYS`.
 
