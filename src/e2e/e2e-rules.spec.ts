@@ -33,6 +33,7 @@ const rulesRootTargets = [
   { target: "amp", outputPath: "AGENTS.md" },
   { target: "codexcli", outputPath: "AGENTS.md" },
   { target: "commandcode", outputPath: "AGENTS.md" },
+  { target: "qoder", outputPath: "AGENTS.md" },
   { target: "grokcli", outputPath: "AGENTS.md" },
   { target: "gitlabduo", outputPath: join(".gitlab", "duo", "chat-rules.md") },
   { target: "hermesagent", outputPath: ".hermes.md" },
@@ -1610,6 +1611,7 @@ describe("E2E: rules (import)", () => {
     { target: "amp", sourcePath: "AGENTS.md", importedFileName: "overview.md" },
     { target: "codexcli", sourcePath: "AGENTS.md", importedFileName: "overview.md" },
     { target: "commandcode", sourcePath: "AGENTS.md", importedFileName: "overview.md" },
+    { target: "qoder", sourcePath: "AGENTS.md", importedFileName: "overview.md" },
     {
       target: "copilot",
       sourcePath: join(".github", "copilot-instructions.md"),
@@ -1779,6 +1781,7 @@ const rulesGlobalTargets = [
   { target: "opencode", outputPath: join(".config", "opencode", "AGENTS.md") },
   { target: "codexcli", outputPath: join(".codex", "AGENTS.md") },
   { target: "commandcode", outputPath: join(".commandcode", "AGENTS.md") },
+  { target: "qoder", outputPath: join(".qoder", "AGENTS.md") },
   { target: "grokcli", outputPath: join(".grok", "AGENTS.md") },
   { target: "gitlabduo", outputPath: join(".gitlab", "duo", "chat-rules.md") },
   { target: "amp", outputPath: join(".config", "amp", "AGENTS.md") },

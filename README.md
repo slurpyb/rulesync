@@ -120,6 +120,7 @@ The tables below show whether each tool supports a given feature (✅ = supporte
 | Continue ⚠️               |  ✅   |   ✅   | ✅  |    ✅    |           |   ✅   |  ✅   |     ✅      |        |
 | Snowflake Cortex Code     |  ✅   |        | ✅  |          |    ✅     |   ✅   |  ✅   |             |        |
 | Vibe Code                 |  ✅   |   ✅   | ✅  |          |    ✅     |   ✅   |  ✅   |     ✅      |        |
+| Qoder                     |  ✅   |        | ✅  |    ✅    |    ✅     |   ✅   |       |             |        |
 | Qwen Code                 |  ✅   |   ✅   | ✅  |    ✅    |    ✅     |   ✅   |  ✅   |     ✅      |        |
 | Meta Muse Code            |  ✅   |        | ✅  |          |           |   ✅   |       |             |        |
 | Reasonix                  |  ✅   |   ✅   | ✅  |    ✅    |    ✅     |   ✅   |  ✅   |     ✅      |        |

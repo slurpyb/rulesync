@@ -52,6 +52,10 @@ const skillsGenerateTargets = [
     outputPath: join(".commandcode", "skills", "test-skill", "SKILL.md"),
   },
   {
+    target: "qoder",
+    outputPath: join(".qoder", "skills", "test-skill", "SKILL.md"),
+  },
+  {
     target: "continue",
     outputPath: join(".continue", "skills", "test-skill", "SKILL.md"),
   },
@@ -378,6 +382,7 @@ This is the test skill body content.
       target: "commandcode",
       orphanPath: join(".commandcode", "skills", "orphan-skill", "SKILL.md"),
     },
+    { target: "qoder", orphanPath: join(".qoder", "skills", "orphan-skill", "SKILL.md") },
     { target: "continue", orphanPath: join(".continue", "skills", "orphan-skill", "SKILL.md") },
     { target: "cursor", orphanPath: join(".cursor", "skills", "orphan-skill", "SKILL.md") },
     { target: "codexcli", orphanPath: join(".agents", "skills", "orphan-skill", "SKILL.md") },
@@ -476,6 +481,7 @@ describe("E2E: skills (import)", () => {
       target: "commandcode",
       sourcePath: join(".commandcode", "skills", "test-skill", "SKILL.md"),
     },
+    { target: "qoder", sourcePath: join(".qoder", "skills", "test-skill", "SKILL.md") },
     { target: "continue", sourcePath: join(".continue", "skills", "test-skill", "SKILL.md") },
     { target: "cursor", sourcePath: join(".cursor", "skills", "test-skill", "SKILL.md") },
     { target: "codexcli", sourcePath: join(".agents", "skills", "test-skill", "SKILL.md") },
@@ -1024,6 +1030,10 @@ const skillsGlobalTargets = [
   {
     target: "commandcode",
     outputPath: join(".commandcode", "skills", "test-skill", "SKILL.md"),
+  },
+  {
+    target: "qoder",
+    outputPath: join(".qoder", "skills", "test-skill", "SKILL.md"),
   },
   {
     target: "continue",
