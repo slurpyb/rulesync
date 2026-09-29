@@ -64,6 +64,10 @@ const skillsGenerateTargets = [
     outputPath: join("skills", "test-skill", "SKILL.md"),
   },
   {
+    target: "augmentcode-plugin",
+    outputPath: join("skills", "test-skill", "SKILL.md"),
+  },
+  {
     target: "cursor",
     outputPath: join(".cursor", "skills", "test-skill", "SKILL.md"),
   },
